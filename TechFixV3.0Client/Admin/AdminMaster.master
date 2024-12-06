@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="TechFixV3._0Client.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin Dashboard - TechFix</title>
+    <link href="~/Content/admin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="logo">
+                <h1>TechFix - Admin Dashboard</h1>
+            </div>
+            <div class="logout">
+                <asp:Button ID="LogoutButton" runat="server" Text="Logout" CssClass="submit-button" OnClick="LogoutButton_Click" />
+            </div>
+        </div>
+        
+        <div class="navbar">
+            <ul>
+                <li><a href="AdminDashboard.aspx">Admin Dashboard</a></li>
+                <li><a href="ManageUsers.aspx">Manage Users</a></li>
+                <li><a href="ManageInventory.aspx">Manage Inventory</a></li>
+                <li><a href="OrderSummary.aspx">Order Summary</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetSalesReportBySupplierId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="supplierId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSalesReportBySupplierIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSalesReportBySupplierIdResult" type="tns:ArrayOfSalesReportItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSalesReportItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SalesReportItem" nillable="true" type="tns:SalesReportItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SalesReportItem">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ItemId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ItemName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="StockQuantity" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SoldQuantity" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalSales" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSalesReportBySupplierIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSalesReportBySupplierId" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesReportBySupplierIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSalesReportBySupplierIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ReportsServiceSoap">
+    <wsdl:operation name="GetSalesReportBySupplierId">
+      <wsdl:input message="tns:GetSalesReportBySupplierIdSoapIn" />
+      <wsdl:output message="tns:GetSalesReportBySupplierIdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ReportsServiceSoap" type="tns:ReportsServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSalesReportBySupplierId">
+      <soap:operation soapAction="http://tempuri.org/GetSalesReportBySupplierId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ReportsServiceSoap12" type="tns:ReportsServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSalesReportBySupplierId">
+      <soap12:operation soapAction="http://tempuri.org/GetSalesReportBySupplierId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReportsService">
+    <wsdl:port name="ReportsServiceSoap" binding="tns:ReportsServiceSoap">
+      <soap:address location="https://localhost:44310/ReportsService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ReportsServiceSoap12" binding="tns:ReportsServiceSoap12">
+      <soap12:address location="https://localhost:44310/ReportsService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
