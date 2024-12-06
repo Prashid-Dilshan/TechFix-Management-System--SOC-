@@ -58,35 +58,34 @@ TechFix3.0/
 ## Screenshots
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dash.png)
+![Admin Dashboard]
 
 ### Manage Users
-![Manage Users](screenshots/admin-ManageUsers.png)
+![Manage Users]
 
 ### Manage Inventory
-![Manage Inventory](screenshots/admin-ManageInventory.png)
+![Manage Inventory]
 
 ### Order Summary
-![Order Summary](screenshots/admin-OrderSummary.png)
+![Order Summary]
 
 ### Supplier Dashboard
-![Supplier Dashboard](screenshots/supplier-dash.png)
+![Supplier Dashboard]
 
 ### Product Store
-![Product Store](screenshots/supplier-ProductStore.png)
+![Product Store]
 
 ### Order Management
-![Order Management](screenshots/supplier-OrderManagement.png)
+![Order Management]
 
 ### Sales Report
-![Sales Report](screenshots/supplier-SalesReport.png)
+![Sales Report]
 
 ### Login Screen
-![Login](screenshots/login.png)
+![Login]
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 ### Contact
 
