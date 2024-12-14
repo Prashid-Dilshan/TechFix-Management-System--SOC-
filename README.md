@@ -1,6 +1,16 @@
-🔗 TechFix
+# 🔗 TechFix  
 
-Techni is an online management platform tailored to optimize the operations of a tech solutions company. It features specialized dashboards for administrators and suppliers, facilitating the efficient management of products, orders, inventory, users, and sales reports. Built with ASP.NET Web Forms, the system incorporates multiple service references to streamline data operations across its various modules.
+TechFix is an advanced online management platform designed to streamline the operations of a tech solutions company.  
+It offers:  
+- **📊 Specialized Dashboards** for administrators and suppliers, enabling efficient management of:  
+  - 🛒 Products  
+  - 📋 Orders  
+  - 📦 Inventory  
+  - 👥 Users  
+  - 📈 Sales Reports  
+
+Built using **🔷 ASP.NET Web Forms**, TechFix leverages multiple service references to ensure smooth and efficient data operations across its various modules.  
+
 
 ## 🌟 Features  
 
