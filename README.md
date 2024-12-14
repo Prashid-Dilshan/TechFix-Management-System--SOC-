@@ -2,17 +2,19 @@
 
 Techni is an online management platform tailored to optimize the operations of a tech solutions company. It features specialized dashboards for administrators and suppliers, facilitating the efficient management of products, orders, inventory, users, and sales reports. Built with ASP.NET Web Forms, the system incorporates multiple service references to streamline data operations across its various modules.
 
-## Features
+## 🌟 Features  
 
-🌐 Admin Dashboard**: Provides a centralized interface for administrators to manage users, inventory, and orders efficiently.
-    🌟 Manage Users**: Add, edit, or remove users with role-based access controls, ensuring only authorized personnel can make changes.
-    🌟 Manage Inventory**: Track stock levels, update product details, and manage inventory seamlessly.
-    🌟 Order Summary**: View and track all orders, monitor their status, and handle processing tasks.
+### 🌐 Admin Dashboard  
+A centralized interface for administrators to manage users, inventory, and orders efficiently.  
+- **👥 Manage Users**: Add, edit, or remove users with role-based access controls, ensuring only authorized personnel can make changes.  
+- **📦 Manage Inventory**: Track stock levels, update product details, and manage inventory seamlessly.  
+- **📝 Order Summary**: View and track all orders, monitor their status, and handle processing tasks.  
 
-🌐 Supplier Dashboard**: A dedicated platform for suppliers to manage their product listings, orders, and sales analytics.
-    🌟 Product Management**: Add, edit, and delete products, ensuring inventory is up-to-date.
-    🌟 Order Management**: Track order statuses, update processing, and notify customers.
-    🌟 Sales Reporting**: Access detailed sales reports to monitor product performance and sales trends.
+### 🌐 Supplier Dashboard  
+A dedicated platform for suppliers to manage their product listings, orders, and sales analytics.  
+- **🛍️ Product Management**: Add, edit, and delete products, ensuring inventory is up-to-date.  
+- **📋 Order Management**: Track order statuses, update processing, and notify customers.  
+- **📊 Sales Reporting**: Access detailed sales reports to monitor product performance and sales trends.  
 
 🔗 Project Structure
 
