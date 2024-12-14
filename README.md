@@ -58,7 +58,8 @@ TechFix3.0/
 🔗 Screenshots
 
 ### Admin Dashboard
-![Admin Dashboard]
+![image](https://github.com/user-attachments/assets/1b3d00fb-2d8e-4be0-89da-eebacd8932ad)
+
 
 ### Manage Users
 ![Manage Users]
