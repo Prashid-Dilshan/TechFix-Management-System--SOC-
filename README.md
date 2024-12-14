@@ -57,34 +57,51 @@ TechFix3.0/
 
 🔗 Screenshots
 
+### Login Screen
+![image](https://github.com/user-attachments/assets/d30f5bc2-c9af-4046-bc32-d36e5850b857)
+
+
+
 ### Admin Dashboard
 ![image](https://github.com/user-attachments/assets/1b3d00fb-2d8e-4be0-89da-eebacd8932ad)
 
 
 ### Manage Users
-![Manage Users]
+![image](https://github.com/user-attachments/assets/1fdeae53-35da-476c-bdbe-20c0456c61ac)
+![image](https://github.com/user-attachments/assets/d6d98f8b-6b01-460a-be0e-c22ba6e8e355)
+
+
 
 ### Manage Inventory
-![Manage Inventory]
+![image](https://github.com/user-attachments/assets/b62d6c4b-f43d-4e83-9b2a-9f02c98e8ba8)
+![image](https://github.com/user-attachments/assets/5a026779-bccb-4037-a88b-97bdc12b87b2)
+![image](https://github.com/user-attachments/assets/afd1060d-4c8e-4493-9f97-39416733a359)
+![image](https://github.com/user-attachments/assets/e4112fcf-bdeb-4229-a8cd-1af32ce617e8)
+
+
+
 
 ### Order Summary
-![Order Summary]
+![image](https://github.com/user-attachments/assets/2cef13f7-93b2-40ec-9e1e-c82affd30d23)
+
 
 ### Supplier Dashboard
-![Supplier Dashboard]
+![image](https://github.com/user-attachments/assets/49fa182b-4b69-4be8-9fbc-143584a2d600)
+
 
 ### Product Store
-![Product Store]
+![image](https://github.com/user-attachments/assets/57075371-3658-4770-bb0e-9c0d714218c8)
+![image](https://github.com/user-attachments/assets/30e85111-f324-4789-b628-57b71743b9c4)
+![image](https://github.com/user-attachments/assets/c9697191-0067-49c4-8a2c-07784292e614)
+
+
 
 ### Order Management
-![Order Management]
+![image](https://github.com/user-attachments/assets/6c10a0cf-1386-44f0-80b5-fa6e756a9df1)
+
 
 ### Sales Report
-![Sales Report]
-
-### Login Screen
-![Login]
-
+![image](https://github.com/user-attachments/assets/aecf0415-8cf9-4773-92b2-09b5ce7bdcea)
 
 
 
