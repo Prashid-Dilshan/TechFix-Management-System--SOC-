@@ -104,10 +104,9 @@ TechFix3.0/
 ![image](https://github.com/user-attachments/assets/aecf0415-8cf9-4773-92b2-09b5ce7bdcea)
 
 
-
 🔗 Contact
 
-- Author: Prashid Dilshan
+🧑‍💻 Author: Prashid Dilshan
 
 
 
