@@ -106,7 +106,7 @@ TechFix3.0/
 
 🔗 Contact
 
-🧑‍💻 Author: Prashid Dilshan
+🧑‍💻 Author :- "Prashid Dilshan"
 
 
 
