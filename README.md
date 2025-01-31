@@ -100,7 +100,8 @@ TechFix3.0/
 
 
 ### Supplier Dashboard
-![image](https://github.com/user-attachments/assets/49fa182b-4b69-4be8-9fbc-143584a2d600)
+![image](https://github.com/user-attachments/assets/83480e2e-8b48-4286-ab91-7ecb2cf9e38c)
+
 
 
 ### Product Store
