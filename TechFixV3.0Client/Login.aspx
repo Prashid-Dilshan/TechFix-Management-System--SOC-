@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Login - TechFix</title>
-    <link href="~/Content/login.css" rel="stylesheet" type="text/css" />
+    <link  rel="stylesheet" type="text/css" href="~/Content/login.css?version=1" />
 </head>
 <body>
     <form id="form1" runat="server">

@@ -4,7 +4,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Admin Dashboard - TechFix</title>
-    <link href="~/Content/admin.css" rel="stylesheet" type="text/css" />
+    <link  rel="stylesheet" type="text/css" href="~/Content/admin.css?version=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
 </head>
 <body>
     <form id="form1" runat="server">
