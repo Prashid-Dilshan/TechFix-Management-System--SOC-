@@ -70,12 +70,13 @@ TechFix3.0/
 🔗 Screenshots
 
 ### Login Screen
-![image](https://github.com/user-attachments/assets/d30f5bc2-c9af-4046-bc32-d36e5850b857)
+
 
 
 
 ### Admin Dashboard
-![image](https://github.com/user-attachments/assets/1b3d00fb-2d8e-4be0-89da-eebacd8932ad)
+![image](https://github.com/user-attachments/assets/937fa9ba-7849-47e3-bd3e-c82a844d6673)
+
 
 
 ### Manage Users
