@@ -1,20 +1,32 @@
-# TechFix 3.0
+# 🔗 TechFix  
 
-TechFix 3.0 is a web-based management system designed to streamline the operations of a tech solutions company. It provides dedicated dashboards for both administrators and suppliers, enabling efficient management of products, orders, inventory, users, and sales reporting. The system is developed using ASP.NET Web Forms and integrates multiple service references for handling data operations across various modules.
+TechFix is an advanced online management platform designed to streamline the operations of a tech solutions company.  
+It offers:  
+- **📊 Specialized Dashboards** for administrators and suppliers, enabling efficient management of:  
+  - 🛒 Products  
+  - 📋 Orders  
+  - 📦 Inventory  
+  - 👥 Users  
+  - 📈 Sales Reports  
 
-## Features
+Built using **🔷 ASP.NET Web Forms**, TechFix leverages multiple service references to ensure smooth and efficient data operations across its various modules.  
 
-- **Admin Dashboard**: Provides a centralized interface for administrators to manage users, inventory, and orders efficiently.
-  - **Manage Users**: Add, edit, or remove users with role-based access controls, ensuring only authorized personnel can make changes.
-  - **Manage Inventory**: Track stock levels, update product details, and manage inventory seamlessly.
-  - **Order Summary**: View and track all orders, monitor their status, and handle processing tasks.
 
-- **Supplier Dashboard**: A dedicated platform for suppliers to manage their product listings, orders, and sales analytics.
-  - **Product Management**: Add, edit, and delete products, ensuring inventory is up-to-date.
-  - **Order Management**: Track order statuses, update processing, and notify customers.
-  - **Sales Reporting**: Access detailed sales reports to monitor product performance and sales trends.
+## 🌟 Features  
 
-## Project Structure
+### 🌐 Admin Dashboard  
+A centralized interface for administrators to manage users, inventory, and orders efficiently.  
+- **👥 Manage Users**: Add, edit, or remove users with role-based access controls, ensuring only authorized personnel can make changes.  
+- **📦 Manage Inventory**: Track stock levels, update product details, and manage inventory seamlessly.  
+- **📝 Order Summary**: View and track all orders, monitor their status, and handle processing tasks.  
+
+### 🌐 Supplier Dashboard  
+A dedicated platform for suppliers to manage their product listings, orders, and sales analytics.  
+- **🛍️ Product Management**: Add, edit, and delete products, ensuring inventory is up-to-date.  
+- **📋 Order Management**: Track order statuses, update processing, and notify customers.  
+- **📊 Sales Reporting**: Access detailed sales reports to monitor product performance and sales trends.  
+
+🔗 Project Structure
 
 ```plaintext
 TechFix3.0/
@@ -55,42 +67,58 @@ TechFix3.0/
 └── TechFixV3.0.sln
 ```
 
-## Screenshots
-
-### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dash.png)
-
-### Manage Users
-![Manage Users](screenshots/admin-ManageUsers.png)
-
-### Manage Inventory
-![Manage Inventory](screenshots/admin-ManageInventory.png)
-
-### Order Summary
-![Order Summary](screenshots/admin-OrderSummary.png)
-
-### Supplier Dashboard
-![Supplier Dashboard](screenshots/supplier-dash.png)
-
-### Product Store
-![Product Store](screenshots/supplier-ProductStore.png)
-
-### Order Management
-![Order Management](screenshots/supplier-OrderManagement.png)
-
-### Sales Report
-![Sales Report](screenshots/supplier-SalesReport.png)
+🔗 Screenshots
 
 ### Login Screen
-![Login](screenshots/login.png)
+![image](https://github.com/user-attachments/assets/d30f5bc2-c9af-4046-bc32-d36e5850b857)
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Contact
+### Admin Dashboard
+![image](https://github.com/user-attachments/assets/1b3d00fb-2d8e-4be0-89da-eebacd8932ad)
 
-- Author: Prashid Dilshan
+
+### Manage Users
+![image](https://github.com/user-attachments/assets/1fdeae53-35da-476c-bdbe-20c0456c61ac)
+![image](https://github.com/user-attachments/assets/d6d98f8b-6b01-460a-be0e-c22ba6e8e355)
+
+
+
+### Manage Inventory
+![image](https://github.com/user-attachments/assets/b62d6c4b-f43d-4e83-9b2a-9f02c98e8ba8)
+![image](https://github.com/user-attachments/assets/5a026779-bccb-4037-a88b-97bdc12b87b2)
+![image](https://github.com/user-attachments/assets/afd1060d-4c8e-4493-9f97-39416733a359)
+![image](https://github.com/user-attachments/assets/e4112fcf-bdeb-4229-a8cd-1af32ce617e8)
+
+
+
+
+### Order Summary
+![image](https://github.com/user-attachments/assets/2cef13f7-93b2-40ec-9e1e-c82affd30d23)
+
+
+### Supplier Dashboard
+![image](https://github.com/user-attachments/assets/49fa182b-4b69-4be8-9fbc-143584a2d600)
+
+
+### Product Store
+![image](https://github.com/user-attachments/assets/57075371-3658-4770-bb0e-9c0d714218c8)
+![image](https://github.com/user-attachments/assets/30e85111-f324-4789-b628-57b71743b9c4)
+![image](https://github.com/user-attachments/assets/c9697191-0067-49c4-8a2c-07784292e614)
+
+
+
+### Order Management
+![image](https://github.com/user-attachments/assets/6c10a0cf-1386-44f0-80b5-fa6e756a9df1)
+
+
+### Sales Report
+![image](https://github.com/user-attachments/assets/aecf0415-8cf9-4773-92b2-09b5ce7bdcea)
+
+
+🔗 Contact
+
+🧑‍💻 Author :- "Prashid Dilshan"
 
 
 
